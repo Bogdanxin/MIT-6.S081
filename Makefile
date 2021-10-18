@@ -143,6 +143,7 @@ UPROGS=\
 	$U/_ls\
 	$U/_mkdir\
 	$U/_rm\
+	$U/_primes\
 	$U/_sh\
 	$U/_stressfs\
 	$U/_usertests\
