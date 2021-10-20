@@ -11,9 +11,11 @@ int read(int, void*, int);
 int close(int);
 int kill(int);
 int exec(char*, char**);
+// open 文件，返回文件的描述符 fd
 int open(const char*, int);
 int mknod(const char*, short, short);
 int unlink(const char*);
+// 获取文件状态
 int fstat(int fd, struct stat*);
 int link(const char*, const char*);
 int mkdir(const char*);
