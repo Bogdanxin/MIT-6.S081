@@ -95,6 +95,13 @@ atoi(const char *s)
   return n;
 }
 
+/**
+ * 
+ * @param vdst 
+ * @param vsrc 
+ * @param n 
+ * @return void* 
+ */
 void*
 memmove(void *vdst, const void *vsrc, int n)
 {
@@ -114,7 +121,7 @@ memmove(void *vdst, const void *vsrc, int n)
   }
   return vdst;
 }
-
+  
 int
 memcmp(const void *s1, const void *s2, uint n)
 {
