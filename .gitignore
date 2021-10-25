@@ -21,3 +21,7 @@ xv6.out*
 .vagrant/
 submissions/
 /.vscode
+<<<<<<< HEAD
+=======
+*.pyc
+>>>>>>> 7326f31862f18216d3bae1870d5c838d38f79be1
